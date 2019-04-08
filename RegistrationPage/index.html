@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Form by Colorlib</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/nouislider/nouislider.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="container">
+            <div class="signup-content">
+                <div class="signup-img">
+                    <img src="images/bank.jpg" alt="">
+                    <div class="signup-img-content">
+                        <h2 id="register-name">Register now </h2>
+                       
+                    </div>
+                </div>
+                <div class="signup-form">
+                        <h6 id="details-enter">Enter Your Details </h6>
+                    <form method="POST"  action="pk.php" class="register-form" id="register-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                   
+                                <div class="form-input">
+                                    <label for="first_name" class="required">First name</label>
+                                    <input type="text" name="firstname" id="firstname" Placeholder="Enter Your First Name" />
+                                </div>
+                                <div class="form-input">
+                                    <label for="last_name" class="required">Last name</label>
+                                    <input type="text" name="lastname" id="lastname" placeholder="Enter Your Last Name"/>
+                                </div>
+                                <div class="form-input">
+                                    <label for="age" class="required">Age</label>
+                                    <input type="text" name="age" id="age" Placeholder=" Enter Your Age"/>
+                                </div>
+                                <div class="form-input">
+                                        <div class="form-select">
+                                                <div class="label-flex">
+                                                    <label for="meal_preference">Gender</label>
+                                                </div>
+                                                <div class="select-list">
+                                                    <select name="gender" id="meal_preference">
+                                                        <option value="Male">Male</option>
+                                                        <option value="Female">Female</option>        
+                                                    </select>
+                                                </div>
+                                            </div>
+                                </div>
+                                <div class="form-input">
+                                    <label for="phone_number" class="required">Contact number</label>
+                                    <input type="text" name="contact" id="contact"  placeholder="Contact Number" />
+                                </div>
+                            </div>
+                            <div class="form-group">   
+                                
+                                    <div class="form-input">
+                                        <label for="city" class="required">City</label>
+                                        <input type="text" name="city" id="city" Placeholder=" City" />
+                                    </div>
+                            
+                                    <div class="form-input">
+                                        <label for="state" class="required">State</label>
+                                        <input type="text" name="state" id="state" Placeholder="State" />
+                                    </div>
+                                    <div class="form-input">
+                                        <label for="userid" class="required">User ID</label>
+                                        <input type="text" name="userid" id="userid"  Placeholder="User Id" />
+                                    </div>
+                                    <div class="form-input">
+                                        <label for="password" class="required">Password</label>
+                                        
+                                        
+                                        <input type="text" name="password" id="password" minlength="8" Placeholder="Password" />
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="form-submit">
+                            <input type="submit" value="Submit" class="submit" id="submit" name="submit" />      
+                        </div>
+                    </form>
+                </div>
+              
+            </div>
+        </div>
+
+    </div>
+   
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/nouislider/nouislider.min.js"></script>
+    <script src="vendor/wnumb/wNumb.js"></script>
+    <script src="vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="vendor/jquery-validation/dist/additional-methods.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
